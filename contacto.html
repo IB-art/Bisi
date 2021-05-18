@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Todo sobre el mundo de las bicis.">
+  <meta name="author" content="Iryna Batyuta">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="keywords" content="btt, pedriza, rutas en bici"> 
+  <title>Probicis</title>
+  <link rel="stylesheet" href="css/main.css" media="screen">
+  <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="page-header">
+      <!-- logo -->
+      <nav role="navigation">
+        <img id="logo" src="images/logo.png" alt="logo">
+        <ul>
+          <li><a href="index.html" title="Inicio">portada</a></li>
+          <li><a href="#" title="Blog">blog</a></li>
+          <li><a href="#" title="Sobre nosotros">sobre nosotros</a></li>
+          <li><a href="#" title="Contacto">contacto</a></li>
+        </ul>
+        <button class="bt-acceso">acceso</button>
+      </nav>
+    </header> <!-- logo & navegacion -->
+
+    <article class="page-umbo" role="article"> 
+      <!-- texto bienvenida -->
+      <div>
+        <h1>Contacta con nosotros</h1>
+        <p>Descubre nuevas rutas y paisajes de la mano de bicipro.</p>
+        <p>Somos un grupo de apasionados dispuestos a compartir nuestros conocimientos con todos los amantes de las dos ruedas.</p>
+        <p>Te esperamos!</p>
+      </div>
+    </article>
+
+    <main role="main">
+      <header class="center">
+        <h1>Formulario de contacto</h1>
+        <p>Estamos encantados de tener noticias tuyas</p>
+      </header>
+      <div class="row">
+        <div class="column">
+          <form action="action.php" method="post">
+            <label for="fname">Nombre:</label>
+            <input type="text" id="name" name="firstname" placeholder="Su nombre"> 
+            <label for="fname">Apellidos:</label>
+            <input type="text" id="lname" name="lastname" placeholder="Sus apellidos">
+            <label for="category">Categoria</label>
+            <select name="category" id="category">
+              <option value="xc">XC</option>
+              <option value="carretera">Carretera</option>
+              <option value="enduro">Enduro</option>
+            </select>
+            
+            <label for="subject">Asunto</label>
+            <textarea id="subject" name="subject" placeholder="Te escuchamos" style="height: 200px;"></textarea> 
+            <input class="submit" type="submit" value="Enviar">
+          </form>
+        </div>
+        <div class="column">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95777.52881623218!2d2.0787274462966057!3d41.394768814296846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49816718e30e5%3A0x44b0fb3d4f47660a!2z0JHQsNGA0YHQtdC70L7QvdCw!5e0!3m2!1sru!2ses!4v1605615309025!5m2!1sru!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+        
+  
+    </main>
+
+
+    <footer class="page-footer center" role="contentinfo"> <!-- Politica de privacidad, otro contacto... -->
+      <div class="page-footer-container">
+        <p>Información sobre nuestra  <a href="#"> politica de privacidad . </a>  Copyright © | Propiedad intelectual de...</p>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>       
+        <i class="fab fa-youtube"></i>
+        <p>Creado por: <a href="mailto:lolita72sam@gmail.com">Iryna Batyuta </a> Teléfono de contacto:<a href="tel:34622227241"> +34 622 22 72 41</a></p>
+        <p>Calle Gran Via, Barcelona</p>
+      </div>
+      
+    </footer>
+
+  </div>
+  
+
+</body>
+
+</html>
